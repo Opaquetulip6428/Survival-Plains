@@ -1,0 +1,255 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": "Pillager Outpost Map"
+              },
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "pillager_outpost",
+                "decoration": "banner_gray",
+                "zoom": 2,
+                "skip_existing_chunks": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": "Nether Fortress Map"
+              },
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "fortress",
+                "decoration": "red_marker",
+                "zoom": 3,
+                "skip_existing_chunks": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 9,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 20,
+                  "max": 45
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:lapis_lazuli",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 24
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:fire_aspect",
+                  "minecraft:fire_protection",
+                  "minecraft:feather_falling",
+                  "minecraft:depth_strider",
+                  "minecraft:binding_curse",
+                  "minecraft:bane_of_arthropods",
+                  "minecraft:impaling",
+                  "minecraft:fortune",
+                  "minecraft:soul_speed",
+                  "minecraft:smite",
+                  "minecraft:unbreaking",
+                  "minecraft:silk_touch"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:totem_of_undying"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:iron_axe",
+                "functions": [
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{Unbreakable:true}"
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 4,
+                "name": "minecraft:iron_axe"
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:iron_axe",
+                "functions": [
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "enchantments": [
+                      "minecraft:vanishing_curse",
+                      "minecraft:sharpness",
+                      "minecraft:efficiency",
+                      "minecraft:looting"
+                    ]
+                  },
+                  {
+                    "function": "minecraft:enchant_randomly",
+                    "enchantments": [
+                      "minecraft:mending",
+                      "minecraft:unbreaking"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:tall_grass",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:cocoa_beans",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:jungle_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:music_disc_chirp"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:music_disc_blocks"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:music_disc_cat"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:music_disc_13"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:music_disc_11"
+          }
+        ]
+      }
+    ]
+  }
+  

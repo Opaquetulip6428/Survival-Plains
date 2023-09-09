@@ -1,0 +1,117 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 12,
+                  "max": 24
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "ruined_portal",
+                "decoration": "red_x",
+                "zoom": 2,
+                "skip_existing_chunks": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": "Ruined Portal Map"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": "Pillager Outpost Map"
+              },
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "pillager_outpost",
+                "decoration": "banner_gray",
+                "zoom": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 3,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 34
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 13,
+            "name": "minecraft:iron_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 20,
+                  "max": 35
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 14,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 15
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      }
+    ]
+  }
+  
