@@ -1,0 +1,10 @@
+{
+    "block": "minecraft:diorite",
+    "dim": "spd:cold_plains_frontier",
+    "r": 20,
+    "g": 125,
+    "b": 15,
+    "ignitionType":  "BLOCK",
+    "ignitionSource": "minecraft:fire",
+    "returnDim":"minecraft:overworld"
+}

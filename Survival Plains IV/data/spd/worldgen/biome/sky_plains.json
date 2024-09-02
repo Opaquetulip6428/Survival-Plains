@@ -1,0 +1,121 @@
+{
+    "surface_builder": "minecraft:grass",
+    "depth": 0.125,
+    "scale": 0.0025,
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "precipitation": "none",
+    "category": "plains",
+    "player_spawn_friendly": false,
+    "effects": {
+      "sky_color": 7254527,
+      "fog_color": 12638463,
+      "water_color": 4159204,
+      "water_fog_color": 329011,
+      "grass_color": 13936392,
+      "foliage_color": 13936392,
+      "mood_sound": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      }
+    },
+    "starts": [],
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:enderman",
+          "weight": 3,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:pig",
+          "weight": 1,
+          "minCount": 3,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:sheep",
+          "weight": 1,
+          "minCount": 3,
+          "maxCount": 6
+        }
+      ],
+      "ambient": [],
+      "underground_water_creature": [
+        {
+          "type": "minecraft:glow_squid",
+          "weight": 10,
+          "minCount": 4,
+          "maxCount": 6
+        },
+        {
+          "type": "minecraft:axolotl",
+          "weight": 10,
+          "minCount": 4,
+          "maxCount": 6
+        }
+      ],
+      "water_creature": [],
+      "water_ambient": [
+        {
+          "type": "minecraft:cod",
+          "weight": 1,
+          "minCount": 3,
+          "maxCount": 4
+        }
+      ],
+      "misc": []
+    },
+    "spawn_costs": {
+      "minecraft:enderman": {
+        "energy_budget": 0.1,
+        "charge": 1
+      }
+    },
+    "carvers": {},
+    "features": [
+      [
+        "minecraft:lake_water"
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        "minecraft:flower_swamp"
+      ],
+      [
+        "minecraft:ore_dirt",
+        "minecraft:ore_gravel",
+        "minecraft:ore_diorite",
+        "minecraft:ore_coal",
+        "minecraft:ore_iron",
+        "minecraft:ore_gold",
+        "minecraft:ore_copper",
+        "minecraft:disk_sand",
+        "minecraft:disk_clay",
+        "minecraft:disk_gravel"
+      ],
+      [
+        "minecraft:rare_dripstone_cluster",
+        "minecraft:rare_small_dripstone"
+      ],
+      [
+        "minecraft:glow_lichen",
+        "minecraft:plain_vegetation",
+        "minecraft:patch_grass_plain",
+        "minecraft:brown_mushroom_normal",
+        "minecraft:red_mushroom_normal",
+        "minecraft:patch_sugar_cane_badlands"
+      ],
+      [
+        "minecraft:freeze_top_layer"
+      ]
+    ]
+  }
+  
